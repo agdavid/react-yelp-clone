@@ -10,3 +10,6 @@ const App = React.createClass({
     );
   }
 });
+
+const mountNode = document.querySelector('#root');
+ReactDOM.render(<App />, mountNode);
